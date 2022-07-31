@@ -58,3 +58,13 @@ export const polygonMainnet: NetworkConfigInterface = {
     generateTransactionUrl: (transactionAddress: string) => `https://polygonscan.com/tx/${transactionAddress}`,
   },
 }
+
+export const bscMainnet: NetworkConfigInterface = {
+  chainId: 56,
+  symbol: 'BNB',
+  blockExplorer: {
+    name: 'BSCSCAN',
+    generateContractUrl: (contractAddress: string) => `https://bscscan.com/address/address/${contractAddress}`,
+    generateTransactionUrl: (transactionAddress: string) => `https://bscscan.com/address/tx/${transactionAddress}`,
+  },
+}

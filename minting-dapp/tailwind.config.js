@@ -62,7 +62,7 @@ module.exports = {
           hover_border: colors.red[600],
         },
         label: colors.indigo[600],
-        txt_input: {
+        txt_input: { 
           txt: colors.indigo[600],
           bg: colors.white,
           border: colors.slate[200],
@@ -79,7 +79,7 @@ module.exports = {
         },
 
         // Mint widget
-        token_preview: colors.indigo[200],
+        token_preview: colors.zinc[900],
       },
     },
   },
